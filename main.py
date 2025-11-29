@@ -12,7 +12,7 @@ from aiogram.enums import ChatAction
 
 # ============ إعدادات البوت ============
 
-BOT_TOKEN = "8502627092:AAEdShsL9gz6OMaRNBHZ3HznrnmdtkwDa3o"  # ضع التوكن هناimport os
+BOT_TOKEN = "8502627092:EdShsL9gz6OMaRNBHZ3HznrnmdtkwDa3o"  # ضع التوكن هناimport os
 import asyncio
 import requests
 import yt_dlp
@@ -26,7 +26,7 @@ from aiogram.enums import ChatAction
 # ============ إعدادات البوت ============
 
 # التوكن الآن من متغير بيئة (Environment Variable)
-
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 if not BOT_TOKEN:
     raise ValueError("❌ BOT_TOKEN غير موجود في متغيرات البيئة! تأكد من إضافته في Railway.")

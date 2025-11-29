@@ -26,7 +26,7 @@ from aiogram.enums import ChatAction
 # ============ إعدادات البوت ============
 
 # التوكن الآن من متغير بيئة (Environment Variable)
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 
 if not BOT_TOKEN:
     raise ValueError("❌ BOT_TOKEN غير موجود في متغيرات البيئة! تأكد من إضافته في Railway.")
